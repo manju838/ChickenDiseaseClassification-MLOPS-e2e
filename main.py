@@ -6,4 +6,4 @@
 
 from cnnClassifier import logger
 
-logger.info("Testing cnnClassifier package's custom logging module")
+logger.info("Testing cnnClassifier package's custom logger")

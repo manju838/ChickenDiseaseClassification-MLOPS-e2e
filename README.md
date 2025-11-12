@@ -22,4 +22,7 @@ $pip install -r requirements.txt
 ```
 
 ### Note:
+* In Python, any directory that contains an __init__.py file is considered a package.
+* Within a package, individual Python files (.py files) are considered modules.
 * logs folder is not created using template.py
+* 
