@@ -1,8 +1,14 @@
 # ChickenDiseaseClassification-MLOPS-e2e
 Follows https://www.youtube.com/watch?v=p1bfK8ZJgkE
 
-# Steps
+## Steps
 
+1) To create a fresh repo with the MLOPS template: 
+```bash
+python template.py
+```
+
+2) To install this project:
 ```bash
 $conda create -n chicken python=3.10 pip
 $conda activate chicken
@@ -15,5 +21,5 @@ $which pip
 $pip install -r requirements.txt
 ```
 
-# Note:
-* Logging is added in the project_name's constructor file(src/template_project_name) so that it automatically gets imported 
+### Note:
+* logs folder is not created using template.py
