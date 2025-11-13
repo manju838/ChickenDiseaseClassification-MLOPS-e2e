@@ -21,8 +21,8 @@ list_of_files = [
     f"src/{project_name}/entity/__init__.py",       # Define clear data structures, schemas, and return types for various components and stages in ML Pipeline
     f"src/{project_name}/constants/__init__.py",    # Stores constant values used throughout the project(env variables, filepaths, apikeys etc.)
     "config/config.yaml",                           # Main configuration file for the project
-    "dvc.yaml",                                     # Data Version Control(DVC) pipeline definition file
     "params.yaml",                                  # Parameters file for hyperparameters and other settings
+    "dvc.yaml",                                     # Data Version Control(DVC) pipeline definition file
     "requirements.txt",
     "setup.py",                                     # Script for installing the "project_name" as a package
     "research/trials.ipynb",

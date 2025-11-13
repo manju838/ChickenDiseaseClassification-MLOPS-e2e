@@ -21,6 +21,19 @@ $which pip
 $pip install -r requirements.txt
 ```
 
+## Workflows
+
+1. Update config.yaml               ‾‾‾‾‾‾‾|
+2. Update secrets.yaml [Optional]          |(Update files outside src first, except dvc.yaml)
+3. Update params.yaml               _______|
+4. Update the entity
+5. Update the configuration manager in src config(src/project_name/config/configuration.py)
+6. Update the components
+7. Update the pipeline 
+8. Update the main.py
+9. Update the dvc.yaml
+
+
 ### Note:
 * In Python, any directory that contains an __init__.py file is considered a package.
 * Within a package, individual Python files (.py files) are considered modules.
