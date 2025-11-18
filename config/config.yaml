@@ -1,3 +1,5 @@
+# For dataset, we store everything in artifacts folder under data_ingestion. Download data to this folder and unzip it here.
+
 artifacts_root: artifacts # Creates artifacts directory in the root folder/repository
 
 
